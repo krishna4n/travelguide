@@ -1,0 +1,49 @@
+.item-container {
+  width: 340px;
+  margin: 10px;
+}
+
+.item-image {
+  width: 320px;
+}
+
+.travel-name {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 14px;
+}
+.travel-description {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 992px) {
+  .item-container {
+    width: 450px;
+  }
+  .item-image {
+    width: 440px;
+  }
+  .travel-name {
+    font-size: 16px;
+  }
+  .travel-description {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item-container {
+    min-width: 40%;
+  }
+  .item-image {
+    min-width: 100%;
+  }
+  .travel-name {
+    font-size: 18px;
+  }
+  .travel-description {
+    font-size: 16px;
+  }
+}
